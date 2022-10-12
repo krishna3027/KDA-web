@@ -13,23 +13,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
     <link href="slide.css" rel="stylesheet">
 
-    <title>Academy</title>
+    <title>KDA Academy</title>
 </head>
 <body>
 
     <!-- header -->
-    
-    <header style="background-color:rgba(255, 255, 255, 0.966) ;" class="text-gray-600 body-font">
+    <div class="fixed-nav-bar">
+    <header style="background-color:rgba(212, 236, 230, 0.966) ; color: #fff;
+    background: -webkit-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -o-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: -moz-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;" class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           
           <a href="index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
-            <img src="KDA logo 1.png" alt="logo" width="70px">
-            <span class="ml-3 text-xl" style="font-weight:bold;">Kameswari Defence Academy</span>
+            <img src="KDA logo bg.png" alt="logo" width="70px">
+            <span class="ml-3 text-xl" style="font-weight:bold; padding: 0px 10px; border-radius:15px; color: #fff; background-color:rgba(92, 89, 89, 0.336);">Kameswari Defence Academy</span>
           </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <nav style="text-align: right; padding: 5px 15px;" class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 hover:text-gray-900" style="font-weight:bold;">Army</a>
             <a class="mr-5 hover:text-gray-900" style="font-weight:bold;">Air Force</a>
             <a class="mr-5 hover:text-gray-900" style="font-weight:bold;">Navy</a>
@@ -42,12 +49,13 @@
           </button> -->
         </div>
       </header>
+      </div>
 
 
+ 
+      <div class="after-nav">
 
-
-
-
+<br>
       <!-- slide section  -->
     
 
@@ -81,9 +89,9 @@
 
 <!-- The circles/dots -->
 <div style="text-align:center">
-  <span class="dots" onclick="currentSlide(1)"></span>
-  <span class="dots" onclick="currentSlide(2)"></span>
-  <span class="dots" onclick="currentSlide(3)"></span>
+  <!-- <span class="dots" onclick="currentSlide(2)"></span> -->
+  <!-- <span class="dots" onclick="currentSlide(3)"></span> -->
+  <!-- <span class="dots" onclick="currentSlide(1)"></span> -->
 </div>  
 
 
@@ -97,7 +105,10 @@
 
       <!-- body  -->
 
-      <section class="text-gray-600 body-font">
+
+      <!-- intro image section  -->
+
+      <!-- <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Best Defence Academy
@@ -113,6 +124,22 @@
             <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?military">
           </div>
         </div>
+      </section> -->
+
+      <!-- intro image 2 test  -->
+
+      <section class="text-gray-600 body-font" style="background-image:url('https://source.unsplash.com/720x600/?military,navy,airforce') ; background-position: center center; background-repeat:no-repeat; background-size: 100% 100%; background-size: cover; background-attachment: fixed; opacity: 0.8;" class="bg-image2">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <!-- <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
+          <div style="border-radius: 15px; background-color: rgba(25, 25, 26, 0.205); font-weight: bold;" class="text-center lg:w-2/3 w-full">
+            <h1 style="color:rgb(231, 238, 240); text-shadow: 0 0 2px rgba(0, 0, 0, 0.945);"  class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" ><strong>The Defence Academy For Achivers</strong></h1>
+            <p style="color:rgb(199, 224, 224); text-shadow: 0 0 2px rgba(0, 0, 0, 0.945); font-family: Arial, Helvetica, sans-serif;  " class="mb-8 leading-relaxed"><strong>Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</strong></p>
+            <div class="flex justify-center">
+              <!-- <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
+              <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+            </div>
+          </div>
+        </div>
       </section>
 
 
@@ -123,29 +150,29 @@
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302">
-                <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://scontent.fhyd10-1.fna.fbcdn.net/v/t31.18172-8/17620531_368967170169406_7009520362511495391_o.jpg?stp=c0.53.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=da31f3&_nc_ohc=N7BiHFC_-JwAX-zWu0b&_nc_ht=scontent.fhyd10-1.fna&oh=00_AT_TePPMPvrMKW66_Y5TLFQhMOswHlUxFRTTj7HotjZNbg&oe=636B9673">
+                <p class="leading-relaxed">After joining KDA, initially I felt like I'm suitable for defence forces as I have wasted more money of my parents in 10th and 12th. but after joining KDA I have realised that I can do more and gave my 100% preparation in learning and today I'm<strong> Airforce General</strong></p>
                 <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                <p class="text-gray-500">Senior Product Designer</p>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">N Sravan</h2>
+                <p class="text-gray-500">Airforce General</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="data:image/jpeg;base64,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">
                 <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                 <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
-                <p class="text-gray-500">UI Develeoper</p>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Sravan Kumar</h2>
+                <p class="text-gray-500">Brigadier</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 p-4">
               <div class="h-full text-center">
-                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305">
-                <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://scontent.fhyd10-1.fna.fbcdn.net/v/t1.6435-9/92578141_2591796274422458_7915838207877447680_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=da31f3&_nc_ohc=Pd_qIr0qpkIAX9XeP3y&_nc_ht=scontent.fhyd10-1.fna&oh=00_AT-P1fFoGbEsYtMucYXEJnvtoROceGV6eWZ78kFtCIEtTg&oe=636D7022">
+                <p class="leading-relaxed">Initially I don't know what to do after my 12th class, but by gods grace <strong>Airforce General Sravan</strong> is my longterm friend and I have joined KDA along with him and gave my 110% for preparation and today I am what I am as a Lt. Colonel</p>
                 <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
-                <p class="text-gray-500">CTO</p>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Preetham CH</h2>
+                <p class="text-gray-500">LT. colonel</p>
               </div>
             </div>
           </div>
@@ -160,16 +187,17 @@
         <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
-              <span class="ml-3 text-xl">Tailblocks</span>
+              </svg> -->
+              <img src="KDA logo bg.png" alt="logo" width="70px">
+              <span class="ml-3 text-xl">Kameswari Defence Academy</span>
             </a>
-            <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+            <p class="mt-2 text-sm text-gray-500">The Academy for excellent soldier training for indian defence forces</p>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Courses</h2>
               <nav class="list-none mb-10">
                 <li>
                   <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -186,7 +214,7 @@
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
               <nav class="list-none mb-10">
                 <li>
                   <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -203,30 +231,30 @@
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Our Branches</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a class="text-gray-600 hover:text-gray-800">Anakapalli</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a class="text-gray-600 hover:text-gray-800">Devipuram</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a class="text-gray-600 hover:text-gray-800">Third Link</a>
                 </li>
                 <li>
                   <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
+                </li> -->
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FAQs</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a class="text-gray-600 hover:text-gray-800">FAQs on Courses</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a class="text-gray-600 hover:text-gray-800">FAQs on Hostel</a>
                 </li>
                 <li>
                   <a class="text-gray-600 hover:text-gray-800">Third Link</a>
@@ -240,8 +268,8 @@
         </div>
         <div class="bg-gray-100">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
-              <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Kameswari Defence Academy —
+              <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@krishna_kolagani</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a class="text-gray-500">
@@ -271,6 +299,9 @@
         </div>
       </footer>
      
+<!-- after nav  -->
+</div>
+
 </body>
 <script src="slide.js"></script>
 </html>
